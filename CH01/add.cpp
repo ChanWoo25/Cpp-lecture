@@ -1,0 +1,7 @@
+//#pragma once
+
+//Definition
+int add(int a, int b)
+{
+	return a + b;
+}
