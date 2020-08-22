@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/CH03"
+    "cmake.sourceDirectory": "${workspaceFolder}/CH03",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
