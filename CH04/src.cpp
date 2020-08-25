@@ -31,3 +31,13 @@ void Local_Scope()
 
 }
 
+
+int var = 123;
+void Global_Variable()
+{
+    cout << var << endl;
+    int var = 12;
+    cout << ::var << endl;  // Global scope
+    cout << var << endl;    // Local scope
+}
+
